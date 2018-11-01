@@ -1,0 +1,14 @@
+# Build Micro service template
+
+pool:
+  vmImage: 'vs2017-win2016'
+  
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- script: |
+    dotnet build --configuration $(buildConfiguration)
+    dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
+ 
+- task: PublishBuildArtifacts@1
