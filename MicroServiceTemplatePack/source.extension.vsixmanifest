@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="C68DBFAD-26DE-4FFD-9C11-5659F998A810" Version="1.0" Language="en-US" Publisher="Author Name" />
+    <Identity Id="5C19BA14-B242-47F6-BE3C-E0DE5BDE3B67" Version="1.0" Language="en-US" Publisher="Author Name" />
     <DisplayName>My Custom Project Template</DisplayName>
     <Description>My Custom Project Template. Created with SideWaffle</Description>
   </Metadata>
